@@ -225,7 +225,7 @@ footer {
         justify-content: center;
     }
     ul {
-        margin: 0;
+        margin: 3;
     }
     .c1 {
         flex-direction: column-reverse;
