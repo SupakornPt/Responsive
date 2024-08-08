@@ -1,0 +1,111 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.navbar {
+    height: 50px;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+ul {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    list-style: none;
+    margin-right: 40px;
+}
+.nb a {
+    text-decoration: none;
+    color: black;
+}
+.head {
+    font-size: 44px;
+    margin-left: 200px;
+    margin-top: 50px;
+}
+.content1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    height: auto;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #E0E0E0;
+}
+.content2, .content3, .content4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    height: auto;
+    margin-top: 30px;
+    border-bottom: 1px solid #E0E0E0;
+    padding-bottom: 10px;
+}
+.coh1, .coh2, .coh3, .coh4 {
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+.colr1, .colr2, .colr3, .colr4 {
+    display: flex;
+    display: row;
+    justify-content: flex-start;
+    margin-bottom: 15px;
+}
+.col1, .col2, .col3, .col4 {
+    width: 100px;
+    border-right: 1px solid #21243D;
+}
+.cor1, .cor2, .cor3, .cor4 {
+    margin-left: 20px;
+    color: darkgrey;
+}
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    height: 200px;
+}
+.social {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.text {
+    margin-bottom: 20px;
+}
+@media (max-width: 800px) {
+    .navbar {
+        justify-content: center;
+    }
+    ul {
+        margin: 0;
+    }
+    .content1, .content2, .content3, .content4 {
+        margin-left: 0px;
+        margin-right: 0px;
+        padding: 10px 10px;
+    }
+    .head {
+        font-size: 30px;
+        margin: 20px 0 0 10px;
+    }
+    .content1 {
+        margin-top: 20px;
+    }
+    footer {
+        height: 150px;
+    }
+}
